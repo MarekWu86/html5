@@ -7,11 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Formularz</h1>
     <form action="https://formspree.io/aberharry@gmail.com" method="POST" />
         <label><input type="text" name="username" placeholder="Imię"></label>
-        <label><input type="text" name="usersurname" placeholder="Nazwisko"></label><br>
+        <label><input type="text" name="usersurname" placeholder="Nazwisko"></label>
+        <br>
         <label><input type="email" name="email" placeholder="Wpisz e-mail"></label>
-        <label><input type="tel" name="phone" placeholder="Numer telefonu"></label><br>
+        <label><input type="tel" name="phone" placeholder="Numer telefonu"></label>
+        <br>
+        <select name="wojewodztwo">
+                <option value="">--wybierz województwo--</option>
+                <option value="dolnyśląskie">dolnyśląsk</option>
+                <option value="mazowieckie">mazowieckie</option>
+                <option value="małopolskie">małopolskie</option>
+        </select>
+        <br>
         <label><input type="text" name="wiadomość" placeholder="Wpisz treść wiadomości" ></label><br>
         <input type="submit" value="Wyślij">
             
